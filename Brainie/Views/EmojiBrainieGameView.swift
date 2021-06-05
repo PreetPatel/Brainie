@@ -25,9 +25,8 @@ struct EmojiBrainieGameView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         let game = EmojiBrainieGame()
-        EmojiBrainieGameView(gameViewModel: game)
+        game.choose(game.cards.first!)
+        return EmojiBrainieGameView(gameViewModel: game)
             .preferredColorScheme(.light)
-        EmojiBrainieGameView(gameViewModel: game)
-            .preferredColorScheme(.dark)
     }
 }
