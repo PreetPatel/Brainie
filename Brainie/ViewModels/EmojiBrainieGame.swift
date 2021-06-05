@@ -12,7 +12,7 @@ class EmojiBrainieGame: ObservableObject {
     private static let emojis: [String] = ["🎉", "👀", "🥁", "👋", "❤️", "😬", "🤪", "🩹", "🐰", "🔥", "🥲"]
     
     @Published private var model: BrainieGame<String> =
-        BrainieGame<String>(numberOfPairsOfCards: 4) { pairIndex in
+        BrainieGame<String>(numberOfPairsOfCards: 8) { pairIndex in
             emojis[pairIndex]
         }
     

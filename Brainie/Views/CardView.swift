@@ -13,7 +13,7 @@ struct CardView: View {
     var body: some View {
         GeometryReader(content: { geometry in
             ZStack {
-                let shape = RoundedRectangle(cornerRadius: 20)
+                let shape = RoundedRectangle(cornerRadius: 10)
                 if card.isFaceUp {
                     shape.fill().foregroundColor(.white)
                     shape.strokeBorder(lineWidth: 3)
