@@ -25,4 +25,14 @@ class EmojiBrainieGame: ObservableObject {
     func choose(_ card: Card) {
         model.choose(card)
     }
+    
+    func shuffle() {
+        model.shuffle()
+    }
+    
+    func restart() {
+        model = BrainieGame<String>(numberOfPairsOfCards: 8) { pairIndex in
+            EmojiBrainieGame.emojis[pairIndex]
+        }
+    }
 }

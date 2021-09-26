@@ -32,6 +32,10 @@ struct BrainieGame<CardContent> where CardContent: Equatable {
         }
     }
     
+    mutating func shuffle() {
+        cards.shuffle()
+    }
+    
     func index(of card: Card) -> Int? {
         for index in 0..<cards.count {
             if cards[index].id == card.id {
@@ -48,6 +52,7 @@ struct BrainieGame<CardContent> where CardContent: Equatable {
             cards.append(Card(content: content, id: pairIndex * 2))
             cards.append(Card(content: content, id: pairIndex * 2 + 1))
         }
+        cards.shuffle()
     }
     
     // Nested to be able to constrain its namespace.. so cal BrainieGame.Card

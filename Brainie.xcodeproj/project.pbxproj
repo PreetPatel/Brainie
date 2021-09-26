@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602BE0CD270030B300EA64E6 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BE0CC270030B300EA64E6 /* Cardify.swift */; };
 		ED16067C266B0EC9002F3B8C /* BrainieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16067B266B0EC9002F3B8C /* BrainieApp.swift */; };
 		ED16067E266B0EC9002F3B8C /* EmojiBrainieGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16067D266B0EC9002F3B8C /* EmojiBrainieGameView.swift */; };
 		ED160680266B0ECA002F3B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED16067F266B0ECA002F3B8C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602BE0CC270030B300EA64E6 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		ED160678266B0EC9002F3B8C /* Brainie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED16067B266B0EC9002F3B8C /* BrainieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainieApp.swift; sourceTree = "<group>"; };
 		ED16067D266B0EC9002F3B8C /* EmojiBrainieGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBrainieGameView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				ED160698266B8589002F3B8C /* Components */,
 				ED16067D266B0EC9002F3B8C /* EmojiBrainieGameView.swift */,
 				ED160691266B6CF2002F3B8C /* CardView.swift */,
+				602BE0CC270030B300EA64E6 /* Cardify.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				ED16068B266B344D002F3B8C /* BrainieGame.swift in Sources */,
 				ED16068D266B35C9002F3B8C /* EmojiBrainieGame.swift in Sources */,
 				ED16069A266B8597002F3B8C /* Pie.swift in Sources */,
+				602BE0CD270030B300EA64E6 /* Cardify.swift in Sources */,
 				ED160697266B7E19002F3B8C /* AspectVGrid.swift in Sources */,
 				ED16067E266B0EC9002F3B8C /* EmojiBrainieGameView.swift in Sources */,
 				ED160694266B6F6A002F3B8C /* Array.swift in Sources */,
